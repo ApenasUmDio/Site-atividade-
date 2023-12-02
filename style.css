@@ -1,0 +1,88 @@
+<style>body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1em;
+    color: rgb(253, 253, 253);
+    background-color: dodgerblue;
+    text-align: center;
+    height: 150px;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+h2,
+h3,
+p {
+    margin: 5px;
+}
+
+img {
+    max-width: 680px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    bottom: 0;
+}
+
+#Tabela {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Tabela td {
+    padding: 15px;
+    /* Preenchimento interno das células da tabela */
+    text-align: left;
+    /* Alinhamento do texto à esquerda nas células */
+}
+
+#Tabela th {
+    color: #ddd;
+    text-align: center;
+    background-color: #bb3d2f;
+    border-radius: 8px;
+}
+
+
+#Tabela td {
+    border-bottom: 1px solid #ddd;
+    /* Linha de borda inferior nas células da tabela */
+}
+}
+
+</style>
